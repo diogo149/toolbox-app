@@ -107,10 +107,3 @@ const App = () => {
 };
 
 ReactDOM.render(<App />, document.getElementById('app'));
-
-/*
-TODOs
-- add responsive css (to be nice on mobile)
-- do we want logic for a solo flag ?
-- add logic for flags: noisy, journal
-*/
