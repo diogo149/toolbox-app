@@ -2,6 +2,9 @@
 - add responsive css (to be nice on mobile)
 - do we want logic for a solo flag ?
 - add logic for flags: noisy, journal
+* development
+npm start
+localhost:9000
 * deploy to github pages instructions:
 npm run deploy
 * installation
