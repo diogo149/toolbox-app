@@ -1,0 +1,697 @@
+# test yaml file:
+# with open("src/exercises.yaml") as f: import yaml; print(yaml.safe_load(f))
+
+# NOTE: weights must be integers
+weights:
+  debug: 0
+  emres: 50
+  ista: 2
+  shamanic_dearmoring: 1
+  joe_hudson: 5
+  emotional_surfing: 10
+  diogo/reroll: 100
+  diogo/emotional: 5
+  diogo/social: 5
+  diogo/movement: 10
+  diogo/meditation: 10
+  diogo/introspection: 20
+exercises:
+- type: debug
+  time: 20
+  tags:
+  - solo
+  audio: true
+  audioSrc: "audio.mp3"
+- type: emres
+  time: -1
+  tags:
+  - solo
+  content: >-
+    # Self EmRes
+
+    1. what emotion / behavior / issue would you like to resolve?
+
+    2. remember an actual time when you felt the emotion / that way
+
+    3. describe it using present tense, as if it is occuring now. use sensory language.
+
+    4. when the emotion starts, close your eyes and feel your sensations.
+- type: emres
+  time: -1
+  tags:
+  - partner
+  content: >-
+    # EmRes
+
+    - P1: what emotion / behavior / issue would you like to resolve?
+
+    - P1: remember an actual time when you felt the emotion / that way
+
+    - P1: describe it using present tense, as if it is occuring now. use sensory language.
+
+    - P1: when does the emotion start, in this situation?
+
+    - P1: (when P2 feels) close your eyes.
+
+    - P1 repeats:
+
+      1. what sensations are you feeling in your body right now? (have P2 name several)
+
+      2. feel your sensations simultaneously without trying to change them
+
+      3. let me know as the sensations change
+- type: emres
+  time: -1
+  tags:
+  - solo
+  - for_hard_times
+  content: >-
+    # Instant Self-EmRes
+
+    ### for when you are feeling something in the moment
+
+    1. what sensations are you feeling in your body?
+
+    2. close your eyes and feel your sensations
+- type: emres
+  time: -1
+  tags:
+  - partner
+  - for_hard_times
+  content: >-
+    # Instant EmRes
+
+    ### for when you are feeling something in the moment
+
+    - P1: what sensations are you feeling in your body?
+
+    - P1: (when P2 feels) close your eyes.
+
+    - P1 repeats:
+
+      1. what sensations are you feeling in your body right now? (have P2 name several)
+
+      2. feel your sensations simultaneously without trying to change them
+
+      3. let me know as the sensations change
+- type: ista
+  time: -1
+  tags:
+  - solo
+  - for_hard_times
+  content: >-
+    # Aspecting
+
+    1. find a spot where you can maintain 2 different poses facing each other (e.g., 2 seats)
+
+    2. think of an important/difficult conversation you could have (with someone else / a part of yourself)
+
+    3. have that conversation with each pose corresponding to one person (e.g. start with your own perspective in pose 1, respond as the other person in pose 2, etc.)
+
+    4. optionally use emotional releases to get out of your head
+- type: ista
+  time: -1
+  tags:
+  - solo
+  - noisy
+  - for_hard_times
+  content: >-
+    # ISTA Emotional Tools
+
+    Release emotions using a combination / interleaving of the following emotional tools:
+
+    1. hand scream
+
+    2. pillow scream
+
+    3. power stomp
+
+    4. wailing
+
+    5. pillow pounding
+
+    6. pelvic thrusting
+
+    7. tantrum
+
+    8. fetal freeze
+
+
+    ### Useful for all the tools:
+    - *shaking*
+    - big breaths
+- type: shamanic_dearmoring
+  time: -1
+  tags:
+  - solo
+  - noisy
+  - for_hard_times
+  content: >-
+    # Shamanic Dearmoring Self-pleasure
+
+    Just pleasure yourself
+- type: joe_hudson
+  time: -1
+  tags:
+  - solo
+  - meditation
+  content: >-
+    # Don't Manage Yourself Meditation
+
+    Don't manage yourself.
+
+    Don't meditation in any particular way.
+
+    Just be.
+
+    Do nothing.
+- type: joe_hudson
+  time: -1
+  tags:
+  - solo
+  content: >-
+    # Joe Hudson-style Emotional Release
+
+    Pick one of:
+      - sadness/grief
+      - anger
+      - fear
+
+    Have really big expressions of it!
+
+    - It doesn't matter what you say
+
+    - If you don't feel it, just act like you do
+
+    - Be intense!
+- type: joe_hudson
+  time: -1
+  tags:
+  - partner
+  content: >-
+    # Reclamation of Projection
+
+    1. P1 picks a thought that limits their belief of what could be possible
+
+    2. P2 just ask (mostly how/what) questions about it, without believing their story
+
+    3. Switch after
+
+    ### Some tools for P2:
+    1. deconstruction (question the assumption)
+      - define it
+      - prove it
+      - relativity
+      - root cause
+      - logical inconsistency
+      - when in deconstruction, you aren't in VIEW because you are partial (you want to deconstruct the belief)
+
+    2. rabbit hole ("what's wrong with _?")
+      - all fear has a false end. this helps see through that.
+      - use the same words they use
+      - problem: it might be circular
+        - ask then to not define it in terms of itself
+        - if you get stuck deconstruct
+        - sometimes you can figure out what it is you don't want to feel
+
+    3. polarity
+      - looking for something that has constriction
+      - you want to look for a double bind (fucked if you do, fucked if you don't)
+      - it should be personal (I want to make money and that's okay - money is unimportant to me and that's okay) (I can't get out of my head - I don't think things through)
+      - it should be personal (use "I" etc.)
+
+    4. externalize ("would you say that to a six-year old")
+      - taking their isolation and changing it
+      - could be taking it to the general public, a loved one (mother, friend, child, etc), famous figure (ghandi, mother Teresa, etc), someone else in the room
+      - "what makes it ok/not ok for them but ok/not ok for you?"
+      - the point is how gentle are you to others and are you that gentle to yourself
+      - to get a perspective on how we're treating ourselves
+
+    5. thermostat
+      - have P1 say "_, and it's ok"
+- type: emotional_surfing
+  time: -1
+  tags:
+  - solo
+  content: >-
+    # Emotional Surfing and Journaling
+
+    Altenate between journaling and a basic surf:
+
+    ### Basic Surf
+      1. close your eyes
+      2. notice 2-3 distinct sensations
+      3. feel all your sensations tile the wave subsides (or 60-90 seconds)
+
+    ### Journaling:
+      1. write things to have wave of emotion start, things don't have to make sense
+      2. when they start, stop journaling and do basic surf
+      3. go into body and let go of cognition
+      4. when done with wave, open eyes and start writing again
+
+    ### Tips:
+      - avoid: thinking about what we're feeling when not writing
+      - if thinking, bring attention back to your body
+- type: diogo/reroll
+  time: -1
+  tags:
+  - solo
+  - partner
+  - reroll
+  content: >-
+    # You're awesome
+
+    Feel thankful for a sec that you're doing this for yourself... then do another exercise
+- type: diogo/reroll
+  time: -1
+  tags:
+  - solo
+  - partner
+  - reroll
+  content: >-
+    # Posture check
+
+    Check your posture, then do another exercise
+- type: diogo/emotional
+  time: -1
+  tags:
+  - solo
+  - for_hard_times
+  content: >-
+    # EMDR-inspired self-love
+
+    Be with yourself, give yourself a butterfly hug, and tap on your chest with your hands.
+- type: diogo/emotional
+  time: -1
+  tags:
+  - solo
+  - for_hard_times
+  content: >-
+    # Playing with sensations
+
+    Just play around. Some ideas:
+
+    - try to intensify them
+
+    - notice how frequently the sensation pulses
+
+    - try to fully embody them
+
+    - try to predict how it will feel
+
+    - try to move them around
+
+    - increase or decrease tension around them
+- type: diogo/social
+  time: -1
+  tags:
+  - solo
+  content: >-
+    # Friend / connection
+
+    Reach out to a friend. Maybe someone you miss. Maybe someone who misses you. Just reach out!
+
+
+    Optiona: schedule a time to connect.
+- type: diogo/social
+  time: -1
+  tags:
+  - solo
+  content: >-
+    # Send an Apology
+
+    1. Reflect on how you've been with others, and find something you'd like to do better.
+
+    2. Apologize to the appropriate person!
+- type: diogo/social
+  time: -1
+  tags:
+  - solo
+  content: >-
+    # Embodying Curiosity of Others
+
+    1. Think of someone you think is a "flat" character / you think you understand
+
+    2. Think about something that is different between you and them
+
+    3. Write some questions to help you understand that difference
+
+    4. Optional: Ask those questions
+- type: diogo/movement
+  time: -1
+  tags:
+  - solo
+  content: >-
+    # Move yourself
+
+    Get comfy, move in ways that feel good.
+
+    Your only job right now is to move how your body wants to be moved
+- type: diogo/movement
+  time: -1
+  tags:
+  - solo
+  - meditation
+  content: >-
+    # Unstimulated Walk
+
+    Go for a walk without any stimulation, be mindful
+- type: diogo/movement
+  time: 2
+  tags:
+  - solo
+  content: >-
+    # Body Rolls
+    (like how Erik Gafni taught)
+
+    1. Stand facing a wall
+
+    2. Start with nose touching
+
+    3. Slowly roll by having the previous body part leave the wall while having the next lower one touch
+
+    4. Repeat
+
+    5. Do it from behind: start with butt touching wall and move up
+- type: diogo/movement
+  time: 7
+  tags:
+  - solo
+  content: >-
+    # Molding Mobility
+
+    FIXME add instructions
+- type: diogo/movement
+  time: -1
+  tags:
+  - solo
+  content: >-
+    # Hamstring Stretch
+
+    1. Sit by a wall with your back on the ground and legs up.
+
+    2. Feel the hamstring stretch.
+- type: diogo/movement
+  time: -1
+  tags:
+  - solo
+  content: >-
+    # Just Dance
+
+    Play any song from your dancing playlist and move!
+
+    Do what feels good
+- type: diogo/meditation
+  time: -1
+  tags:
+  - solo
+  - meditation
+  content: >-
+    # Concentration practice
+
+    Focus the whole time only on the sensations of breathing.
+
+    If you lose focus, just start again.
+- type: diogo/meditation
+  time: -1
+  tags:
+  - solo
+  - meditation
+  content: >-
+    # Meditate on Efficiency
+
+    Feel the drive to do more...
+
+    How not enough things are right right now...
+
+    How you have so much to do, and you aren't doing enough.
+
+    Really feel that desire
+
+    And do nothing about it.
+- type: diogo/meditation
+  time: -1
+  tags:
+  - solo
+  - meditation
+  content: >-
+    # Meditate on Having Nothing To Do
+
+    You truly have nothing to do right now
+
+    Feel how true it is
+
+    Deeper and deeper
+
+    Feel the freedom of that
+
+    And feel in what you actually want to do
+- type: diogo/meditation
+  time: -1
+  tags:
+  - solo
+  - meditation
+  content: >-
+    # Waste Time, Mindfully
+
+    Just waste time, but really let that sink in.
+
+    Feel as though this waste of time will last the rest of your life.
+
+    And do nothing about it.
+- type: diogo/meditation
+  time: -1
+  tags:
+  - solo
+  - meditation
+  content: >-
+    # Gratitude Meditation
+
+    Feel gratitude for all that you have
+- type: diogo/meditation
+  time: -1
+  tags:
+  - solo
+  - meditation
+  content: >-
+    # Metta: Loving Kindness
+
+    Pick someone to actively love: someone you love, someone you have difficulty with, or yourself
+
+    Feel the genuine desire for them to be happy
+
+    Optional mantras:
+      - may you be free of suffering
+      - may you be happy
+      - may you feel freedom
+      - may you get everything you desire
+- type: diogo/meditation
+  time: -1
+  tags:
+  - solo
+  - meditation
+  content: >-
+    # EmRes Meditation
+
+    Repeat:
+      - Find things you are not okay with
+      - Say to yourself in different ways: "<thing> and that's okay"
+      - Feel all the discomfort/resistance/sensations
+- type: diogo/meditation
+  time: -1
+  tags:
+  - solo
+  - meditation
+  content: >-
+    # Vipassana Meditation
+
+    - Scan your body.
+
+    - Feel what's there.
+
+    - Study it, understand it, deconstruct it.
+- type: diogo/meditation
+  time: -1
+  tags:
+  - solo
+  - meditation
+  content: >-
+    # Patience Meditation
+
+    Find something that you're impatient about, and sit in that discomfort
+- type: diogo/meditation
+  time: -1
+  tags:
+  - solo
+  - meditation
+  content: >-
+    # Loving Awareness Meditation
+
+    - Remember that you are loving awareness
+
+    - Feel it deeper and deeper
+- type: diogo/introspection
+  time: -1
+  tags:
+  - solo
+  content: >-
+    # Reflect on Shamanic Dearmoring Balanced Choreography Wheel
+
+    - give with emotions
+
+    - hold/transform with body
+
+    - receive with mind
+
+    - determine with spirit
+
+    - catalyze with sexuality
+
+    # some Qs:
+
+    - what do I need right now?
+
+    - which part of the wheel am I least embodying?
+- type: diogo/introspection
+  time: -1
+  weight: 10
+  tags:
+  - solo
+  content: >-
+    # Gratitude Introspection
+
+    Feel all the reasons to be grateful for your life right now!
+
+    Optional: write these things in a journal
+- type: diogo/introspection
+  time: -1
+  tags:
+  - solo
+  content: >-
+    # VIEW Introspection
+
+    VIEW stands for:
+      - Vulnerability
+      - Impartiality
+      - Empathy
+      - Wonder
+
+    Reflect on each
+
+    Reflect how much I am embodying each
+
+    Reflect on if I have any weaknesses / blind spots
+- type: diogo/introspection
+  time: -1
+  weight: 10
+  tags:
+  - solo
+  content: >-
+    # Retrospective Introspection
+
+    Look back and reflect.
+
+    - What could I do better?
+
+    - Is this how I want to live?
+
+    - What triggered me?
+
+    - What do I doing without thinking?
+
+    - Where have I not been flowing?
+
+    Optional: journal
+- type: diogo/introspection
+  time: -1
+  weight: 10
+  tags:
+  - solo
+  content: >-
+    # Prospective Introspection
+
+    Look forward:
+
+    - What do I want to do right now?
+
+    - What plans do I want to make?
+
+    - How do I want to act over different time frames?
+
+    - What's stopping me from living my best life?
+
+    Optional: journal
+- type: diogo/introspection
+  time: -1
+  weight: 10
+  tags:
+  - solo
+  content: >-
+    # Emotional Introspection
+
+    Some Qs:
+
+    - What do I judge others for?
+
+    - What am I not okay with?
+
+    - What do I hope for / fear?
+
+    Optional: journal
+- type: diogo/introspection
+  time: -1
+  weight: 5
+  tags:
+  - solo
+  content: >-
+    # What am I avoiding?
+
+    Reflect on what I'm avoiding...
+
+    - Why?
+
+    - How important is it?
+
+    - Can I just not do it?
+
+    - How would my higher self act in this situation?
+
+    Optional: journal
+- type: diogo/introspection
+  time: -1
+  weight: 10
+  tags:
+  - solo
+  content: >-
+    # Value Introspection
+
+    Look at your list of values...
+
+    - Reflect on each
+
+    - Reflect how much I am embodying each
+
+    - Reflect on if I have any weaknesses / blind spots
+TODOs: >-
+  - add molding mobility instructions
+  - include weights for individual exercises too
+  - turn audio into tag ?
+  - more categories:
+      - jennifer wellwood
+      - gb2
+      - landmark
+      - stoicism
+      - loch kelly glimpse practice
+      - add Byron Katie's the work/ 4 Qs
+  - audio categories:
+      - glimpse
+      - waking up moments
+      - breath work (e.g. wim hof)
+  - workout options
+    - down dog (min: 4)
+    - hiit app (min: 1)
+    - back extension
+    - run
+    - starting stretching (14:58)
+    - molding mobility (6:35+)
+    - 6 min abs (6:16)
