@@ -1,7 +1,8 @@
 import React, { createContext, useState, useEffect, useContext } from 'react';
 import ReactDOM from 'react-dom';
 import useSound from 'use-sound';
-import finishSound from './viki_hmph.mp3'; // import your sound here
+import finishSound from './viki_hmph_2x.mp3'; // import your sound here
+import halfSound from './viki_ding_halftime_2x.mp3';
 import ReactMarkdown from 'react-markdown';
 
 import config from './exercises.yaml';
@@ -9,6 +10,7 @@ import config from './exercises.yaml';
 const App = () => {
 
   const [playFinishSound] = useSound(finishSound);
+  const [playHalfSound] = useSound(halfSound);
   const [selectedExercise, setSelectedExercise] = useState(null);
   const [maxTime, setMaxTime] = useState(2);
   const [useAudio, setUseAudio] = useState(false);
@@ -49,13 +51,19 @@ const App = () => {
     let randomExercise = weightedExercises[Math.floor(Math.random() * weightedExercises.length)];
     setSelectedExercise(randomExercise);
     // have time of -1 default to maxTime
+    let exerciseTime = (randomExercise.time > 0 ? randomExercise.time : maxTime) * 60;
     if (randomExercise.tags.includes('reroll')) {
       console.log("REROLL!");
       const rerollTime = 5;
       setTimer(rerollTime);
       setTimeout(() => selectRandomExercise(false), rerollTime * 1000);
     } else {
-      setTimer((randomExercise > 0 ? randomExercise.time : maxTime) * 60);
+      setTimer(exerciseTime);
+    }
+
+    // half-time logic
+    if (randomExercise.tags.includes('partner')) {
+      setTimeout(() => playHalfSound(), 1000 * exerciseTime / 2);
     }
   };
 
@@ -96,7 +104,6 @@ const App = () => {
           </div>
       ) : (
           <div>
-          <h1>{selectedExercise.type}</h1>
           <p>Time: {timer} seconds left</p>
           {selectedExercise.audio && <audio controls src={selectedExercise.audioSrc} />}
           {selectedExercise && <ReactMarkdown>{selectedExercise.content}</ReactMarkdown>}

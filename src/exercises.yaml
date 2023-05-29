@@ -7,6 +7,7 @@ weights:
   emres: 50
   ista: 2
   shamanic_dearmoring: 1
+  jennifer_welwood: 10
   joe_hudson: 5
   emotional_surfing: 10
   diogo/reroll: 100
@@ -150,6 +151,275 @@ exercises:
     # Shamanic Dearmoring Self-pleasure
 
     Just pleasure yourself
+- type: jennifer_welwood
+  time: -1
+  tags:
+  - partner
+  - for_hard_times
+  content: >-
+    # Jennifer Welwood Dyad
+
+    Repeat:
+
+    - P1: "I'm willing to fully align with my wish for ___"
+
+    - P1 says how that makes them feel
+
+
+    Tips:
+
+    - Keep 60% of attention on your self, 40% on your partner
+
+    - This is a contemplative practice in the presence of another to anchor you
+
+    - Not an interactive event: no need to gesture / respond / show you're listening / nod
+- type: jennifer_welwood
+  time: -1
+  tags:
+  - partner
+  - for_hard_times
+  content: >-
+    # Jennifer Welwood Dyad
+
+    Repeat:
+
+    - P1: "What are you experiencing right now?"
+
+    - P2 answers
+
+    - P1: "And what is it like to acknowledge that?"
+
+    - P2 answers
+
+
+    Tips:
+
+    - Keep 60% of attention on your self, 40% on your partner
+
+    - This is a contemplative practice in the presence of another to anchor you
+
+    - Not an interactive event: no need to gesture / respond / show you're listening / nod
+- type: jennifer_welwood
+  time: -1
+  tags:
+  - partner
+  - for_hard_times
+  content: >-
+    # Jennifer Welwood Dyad
+
+    Repeat:
+
+    - P1: "What do you try not to feel?"
+
+    - P2 answers
+
+    - P1: "And how does that affect you?"
+
+    - P2 answers
+
+    - P1: "And what is it like to acknowledge that?"
+
+    - P2 answers
+
+
+    Tips:
+
+    - Keep 60% of attention on your self, 40% on your partner
+
+    - This is a contemplative practice in the presence of another to anchor you
+
+    - Not an interactive event: no need to gesture / respond / show you're listening / nod
+
+    - Can repeat answers for Q1 and Q2
+- type: jennifer_welwood
+  time: -1
+  tags:
+  - partner
+  - for_hard_times
+  content: >-
+    # Jennifer Welwood Dyad
+
+    Repeat:
+
+    - P1: "I'm willing to feel all my feelings"
+
+    - P1 then expresses their right now felt experience
+
+
+    Tips:
+
+    - Keep 60% of attention on your self, 40% on your partner
+
+    - This is a contemplative practice in the presence of another to anchor you
+
+    - Not an interactive event: no need to gesture / respond / show you're listening / nod
+- type: jennifer_welwood
+  time: 10
+  tags:
+  - partner
+  - for_hard_times
+  content: >-
+    # Jennifer Welwood Dyad
+
+    - P1: 2 minute monologue on "what evokes your vulnerability?"
+
+      - Perspective: separate self structure (SSS) losing its territory, SSS not thrilled
+
+    - Repeat:
+
+        - P1: "I'm willing to feel my vulnerability"
+
+        - P1 pauses
+
+        - P1 then expresses their right now felt experience
+
+
+    Tips:
+
+    - Keep 60% of attention on your self, 40% on your partner
+
+    - This is a contemplative practice in the presence of another to anchor you
+
+    - Not an interactive event: no need to gesture / respond / show you're listening / nod
+- type: jennifer_welwood
+  time: -1
+  tags:
+  - partner
+  - for_hard_times
+  content: >-
+    # Jennifer Welwood Dyad
+
+    Repeat:
+
+    - P1: "I'm willing to meet my heartbreak"
+
+    - P1 then expresses their right now felt experience
+
+
+    Tips:
+
+    - Keep 60% of attention on your self, 40% on your partner
+
+    - This is a contemplative practice in the presence of another to anchor you
+
+    - Not an interactive event: no need to gesture / respond / show you're listening / nod
+- type: jennifer_welwood
+  time: -1
+  tags:
+  - partner
+  - for_hard_times
+  content: >-
+    # Jennifer Welwood Dyad
+
+    Repeat:
+
+    - P1: "I am here. I am open. I am awake."
+
+    - P1 then expresses their right now felt experience
+
+
+    Tips:
+
+    - When starting out: feel "I am here" from belly, "I am open" from heart, "I am awake" from mind
+
+    - Eventually: feel everywhere on each statement
+
+    - Keep 60% of attention on your self, 40% on your partner
+
+    - This is a contemplative practice in the presence of another to anchor you
+
+    - Not an interactive event: no need to gesture / respond / show you're listening / nod
+- type: jennifer_welwood
+  time: -1
+  tags:
+  - solo
+  - meditation
+  content: >-
+    # Jennifer Welwood Central Channel Breathing
+
+    - from perenium to apex of crown
+
+    - repeat:
+
+      - inhale: from base to top
+
+      - exhale: from top to base
+- type: jennifer_welwood
+  time: -1
+  tags:
+  - partner
+  - for_hard_times
+  content: >-
+    # Jennifer Welwood Dyad
+
+    Repeat:
+
+    - P1: Express your right now felt experience e.g. "I feel X"
+
+    - P1: "I am aware that I feel X"
+
+    - P1: "I am aware"
+
+    - P1: Then, how that makes you feel e.g. "I feel Y"
+
+
+    Tips:
+
+    - Keep 60% of attention on your self, 40% on your partner
+
+    - This is a contemplative practice in the presence of another to anchor you
+
+    - Not an interactive event: no need to gesture / respond / show you're listening / nod
+- type: jennifer_welwood
+  time: -1
+  tags:
+  - partner
+  - for_hard_times
+  content: >-
+    # Jennifer Welwood Dyad
+
+    Repeat:
+
+    - P1: "I am aware that I am aware"
+
+    - P1 then expresses their right now felt experience
+
+
+    Tips:
+
+    - Keep 60% of attention on your self, 40% on your partner
+
+    - This is a contemplative practice in the presence of another to anchor you
+
+    - Not an interactive event: no need to gesture / respond / show you're listening / nod
+- type: jennifer_welwood
+  time: -1
+  tags:
+  - partner
+  - for_hard_times
+  content: >-
+    # Jennifer Welwood Dyad
+
+    Repeat:
+
+    - P1: "I am here. I am open. I am awake. And I'm willing to include X", where X is any of:
+
+        - something you've identified as
+
+        - difficulties you have / will have
+
+        - insecurities
+
+    - P1 then expresses their right now felt experience
+
+
+    Tips:
+
+    - Keep 60% of attention on your self, 40% on your partner
+
+    - This is a contemplative practice in the presence of another to anchor you
+
+    - Not an interactive event: no need to gesture / respond / show you're listening / nod
 - type: joe_hudson
   time: -1
   tags:
@@ -229,6 +499,82 @@ exercises:
 
     5. thermostat
       - have P1 say "_, and it's ok"
+- type: joe_hudson
+  time: -1
+  tags:
+  - solo
+  - partner
+  - reroll
+  content: >-
+    # Do the next exercise totally wrong
+
+    Go ahead and fuck it up!
+- type: joe_hudson
+  time: -1
+  tags:
+  - group
+  content: >-
+    # I feel selfish when I want _
+
+    - In a circle, everyone says: "I feel selfish when I want _"
+- type: joe_hudson
+  time: -1
+  tags:
+  - partner
+  content: >-
+    # I got angry when _ and what I really wanted was _
+
+    - Take turns saying: "I got angry when _ and what I really wanted was _"
+- type: joe_hudson
+  time: -1
+  tags:
+  - partner
+  content: >-
+    # What are you essentially?
+
+    - Alternate:
+
+        - P1: "What are you essentially?"
+
+        - P2: "I am essentially ___"
+- type: joe_hudson
+  time: -1
+  tags:
+  - partner
+  content: >-
+    # Name something you don't want
+
+    - Alternate:
+
+        - P1: name something you don't want
+
+        - P2: "What is the want behind that?"
+
+        - P1 answers
+
+        - P2: "And what does that look like exactly?"
+
+        - P1 answers
+- type: joe_hudson
+  time: -1
+  tags:
+  - partner
+  content: >-
+    # Name scary wants
+
+    - Alternate:
+
+        - P1: ask P2 for a scary want as if P2 was somebody in your life
+
+        - Repeat 3x:
+
+            - P2: "What is the fear behind that want?"
+
+            - P1 answers
+
+        - P2: "From this place, what is the vulnerable way to express your want?"
+
+        - P1 answers
 - type: emotional_surfing
   time: -1
   tags:
@@ -409,9 +755,11 @@ exercises:
   content: >-
     # Concentration practice
 
-    Focus the whole time only on the sensations of breathing.
+    - Focus the whole time only on the sensations of breathing.
 
-    If you lose focus, just start again.
+    - If you lose focus, just start again.
+
+    - Intention: remain uninvoled with thought
 - type: diogo/meditation
   time: -1
   tags:
