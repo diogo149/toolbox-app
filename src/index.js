@@ -1,9 +1,11 @@
 import React, { createContext, useState, useEffect, useContext } from 'react';
-import ReactDOM from 'react-dom';
+import { createRoot } from 'react-dom/client';
 import useSound from 'use-sound';
 import finishSound from './viki_hmph_2x.mp3'; // import your sound here
 import halfSound from './viki_ding_halftime_2x.mp3';
 import ReactMarkdown from 'react-markdown';
+
+import { TextField, Checkbox, FormControlLabel, Slider, Button, Box } from '@mui/material';
 
 import config from './exercises.yaml';
 
@@ -62,7 +64,7 @@ const App = () => {
     }
 
     // half-time logic
-    if (randomExercise.tags.includes('partner')) {
+    if (randomExercise.tags.includes('partner') && !randomExercise.tags.includes('reroll')) {
       setTimeout(() => playHalfSound(), 1000 * exerciseTime / 2);
     }
   };
@@ -74,34 +76,49 @@ const App = () => {
     setTimer(null);
   }
 
+  const handleSliderChange = (event, newValue) => {
+    setMaxTime(newValue);
+  };
+
   return (
       <div className="App">
+      <Box
+        width="80%"
+        border={1}
+        borderColor="grey.500"
+        borderRadius={2}
+        p={2}
+        m={2}
+        bgcolor="background.paper"
+      >
       {!selectedExercise ? (
           <div>
-          <label>
-          Max Time (in minutes):
-          <input type="number" value={maxTime} onChange={(e) => setMaxTime(e.target.value)} />
-          </label>
+          <h2>Max Time (in minutes):</h2>
+          <Slider
+            defaultValue={2}
+            min={1}
+            max={10}
+            step={1}
+            valueLabelDisplay="on"
+            onChange={handleSliderChange}
+          />
           <br/>
-          {/*
-          <label>
-          Use Audio:
-          <input type="checkbox" checked={useAudio} onChange={(e) => setUseAudio(e.target.checked)} />
-          </label>
+          <FormControlLabel
+            control={
+              <Checkbox checked={usePartner} onChange={(e) => setUsePartner(e.target.checked)} />
+            }
+            label="Partner Exercise"
+          />
           <br/>
-          */}
-          <label>
-          Partner Exercise:
-          <input type="checkbox" checked={usePartner} onChange={(e) => setUsePartner(e.target.checked)} />
-          </label>
+          <FormControlLabel
+            control={
+              <Checkbox checked={useForHardTimes} onChange={(e) => setUseForHardTimes(e.target.checked)} />
+            }
+            label="For hard times?"
+          />
           <br/>
-          <label>
-          For hard times?:
-          <input type="checkbox" checked={useForHardTimes} onChange={(e) => setUseForHardTimes(e.target.checked)} />
-          </label>
-          <br/>
-          <button onClick={selectRandomExercise}>Start</button>
-          </div>
+          <Button onClick={selectRandomExercise}>Start</Button>
+        </div>
       ) : (
           <div>
           <p>Time: {timer} seconds left</p>
@@ -109,8 +126,10 @@ const App = () => {
           {selectedExercise && <ReactMarkdown>{selectedExercise.content}</ReactMarkdown>}
         </div>
       )}
+    </Box>
     </div>
   );
 };
 
-ReactDOM.render(<App />, document.getElementById('app'));
+const root = document.getElementById('app');
+createRoot(root).render(<App />);

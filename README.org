@@ -21,3 +21,10 @@ npm install --save-dev yaml-loader
 npm install --save-dev file-loader
 
 npm install gh-pages --save-dev
+
+npm install @mui/material
+
+npm install @emotion/styled @emotion/react
+* docs
+- https://mui.com/material-ui/react-slider/
+  - mui slider
